@@ -5,41 +5,16 @@
 // Creiamo un nuovo array contenente i valori che hanno la posizione compresa tra i due numeri.
 // Eseguiamo questo esercizio prima con forEach e poi con filter.
 
+const myArray = ['Michele', 'Fabio', 'Roberto', 'Giovanni', 'Simone', 'Chiara'];
 
-// 1 Creare un array di numeri compresi tra 2 valori compresi tra 1 e 10
-const newArray = [
-    {
-        name: 'Michele',
-        number: 1
-    },
-    {
-        name: 'Fabio',
-        number: 2
-    },
-    {
-        name: 'Roberto',
-        number: 3
-    },
-    {
-        name: 'Giovanni',
-        number: 4
-    },
-    {
-        name: 'Simone',
-        number: 5
-    },
-    {
-        name: 'Chiara',
-        number: 6
-    }
-]
-
+const newArray = []
+const min = 1;
+const max = 5;
 
 // 2 Eseguire questo esercizio con il forEach
-newArray.forEach((element, index, array) => {
-    const textConsole = `${element.name} ha il numero ${element.number}`;
-    console.log(textConsole)
-}
-)
-
-// 3 Eseguire questo esercizio con il filter
+myArray.forEach((element, index, array) => {
+    if (index > 1 && index < 5) {
+        newArray.push (element)
+        console.log(newArray)
+    }
+})
