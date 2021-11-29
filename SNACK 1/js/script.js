@@ -18,3 +18,17 @@ myArray.forEach((element, index, array) => {
         console.log(newArray)
     }
 })
+
+
+// Usiamo adesso il filter
+
+const newMyArray = myArray.filter ((element, index, array) => {
+    let result;
+    if (index > 1 && index < 5) {
+       result = true;
+    }else {
+        result = false;
+    }
+    return result
+} ) 
+console.log(newMyArray)
