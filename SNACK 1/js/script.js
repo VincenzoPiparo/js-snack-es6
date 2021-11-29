@@ -37,8 +37,8 @@ const newArray = [
 
 // 2 Eseguire questo esercizio con il forEach
 newArray.forEach((element, index, array) => {
-    const text = `${element.name} ha il numero ${element.number}`;
-    console.log(text)
+    const textConsole = `${element.name} ha il numero ${element.number}`;
+    console.log(textConsole)
 }
 )
 
