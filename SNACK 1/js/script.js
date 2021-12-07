@@ -11,7 +11,7 @@ const newArray = []
 const min = 1;
 const max = 5;
 
-// 2 Eseguire questo esercizio con il forEach
+// 1 Eseguire questo esercizio con il forEach
 myArray.forEach((element, index, array) => {
     if (index > 1 && index < 5) {
         newArray.push (element)
@@ -20,7 +20,7 @@ myArray.forEach((element, index, array) => {
 })
 
 
-// Usiamo adesso il filter
+// 2 Usiamo adesso il filter
 
 const newMyArray = myArray.filter ((element, index, array) => {
     let result;

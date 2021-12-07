@@ -29,7 +29,6 @@ let students = [
     // 1 Creazione delle targhe con il loro nome in maiuscolo, con un nuovo array    
             // Creazione di una variabile
        
-
             // Creiamo un ciclo foreach
             const studentsUpperCase = students.map((element, index, array) => {
 
@@ -47,8 +46,6 @@ let students = [
             });
             
             console.log(studentsVote70);
-            
-            
             
      // 3-  Dobbiamo creare un nuovo array di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
              // Creiamo una costante
